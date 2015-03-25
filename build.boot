@@ -22,7 +22,7 @@
 (deftask dev
   []
   (comp
-   (serve :dir "target/public"
+   (serve :dir "target/public/"
           :httpkit true)
    (watch)
    (speak)
